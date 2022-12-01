@@ -8,7 +8,7 @@ import math
 import multiprocessing as mp # Para trabajar en paralelo
 import time
 
-class Servidor():
+	class Servidor():
 
 	def __init__(self, host=socket.gethostname(), port=int(input("Que puerto quiere usar ? "))): #host e IP
 		self.clientes = []        #array de los clientes

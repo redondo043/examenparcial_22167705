@@ -1,0 +1,1 @@
+Matriz  A y B se han multiplicado con exito en SECUENCIAL ha tardado 124012 y en PARALELO 188432. El tamaño de A es 7705*22 y el tamaño de B es 22*7705
