@@ -3,6 +3,10 @@ import threading       #hilos
 import sys             #habalr con el sistema
 import pickle          #serializar y deserializar
 import os              #hablar con el sistema operativo
+import random # Para generar num. aleatorios en la A y B 
+import math
+import multiprocessing as mp # Para trabajar en paralelo
+import time
 
 class Servidor():
 
@@ -66,5 +70,6 @@ class Servidor():
     
 	def historial(self, n): #Historial del chat
 		with open ("ue22167705.txt", 'a') as f: 
-			f.write(n"Historial: "+ str(n) + "\n") #se escribe el valor de las variables
-arrancar = Servidor() 
+			f.write("Historial: "+ str(n) + "\n") #se escribe el valor de las variables
+     
+	arrancar = Servidor()

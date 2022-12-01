@@ -70,6 +70,6 @@ class Servidor():
     
 	def historial(self, n): #Historial del chat
 		with open ("ue22167705.txt", 'a') as f: 
-			f.write(n"Historial: "+ str(n) + "\n") #se escribe el valor de las variables
+			f.write("Historial: "+ str(n) + "\n") #se escribe el valor de las variables
      
 	arrancar = Servidor()
