@@ -63,5 +63,8 @@ class Servidor():
 						i=1
 				c.send(msg) #lo envia
 			except: self.clientes.remove(c) 
-
+    
+	def historial(self, n): #Historial del chat
+		with open ("ue22167705.txt", 'a') as f: 
+			f.write(n"Historial: "+ str(n) + "\n") #se escribe el valor de las variables
 arrancar = Servidor() 
